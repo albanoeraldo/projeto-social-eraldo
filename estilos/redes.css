@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+::-webkit-scrollbar { /* Copia do professor */ 
+    width: 0px;
+    height: 0px;
+}
+
+img{
+    width: 100vw;
+}
+
+a {
+    display: block;
+    color: white;
+    background-color: rgb(33, 68, 175);
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    background-color: blue;
+    text-decoration: underline;
+}
